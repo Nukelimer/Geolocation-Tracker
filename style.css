@@ -1,0 +1,91 @@
+html {
+  font-size: 100px;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(/asset/images/background.jpg);
+  background-color: rgb(62, 61, 61);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+.container {
+  background: rgba(245, 245, 241, 0.4);
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+  max-width: 480px;
+}
+.arrow {
+  transition: all 0.2s;
+  transform: rotate(0deg);
+  display: inline-block;
+}
+
+h1 {
+  color: white;
+  font-weight: 100;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.units {
+  font-size: 15px;
+}
+.modal {
+  font-size: 0.2em;
+  margin-top: 2em;
+  background: white;
+  padding: 1em;
+  width: 80%;
+  border-radius: 4px;
+  display: none;
+  flex-direction: column;
+  max-width: 480px;
+}
+.modal span img{
+  margin: 1em 0 0 0;
+  display: block;
+  width: 100%;
+ 
+}
+
+.cancel{
+  height: 35px;
+  width: 35px;
+  align-self: flex-end;
+}
+
+.span{
+  width: 100px;
+  height: 100px;
+}
+.btns{
+  display: flex;
+  justify-content: space-between;
+}
+.refresh{
+  height: 35px;
+  width: 35px;
+}
+
+.show{
+  display: flex;
+}
+
+.hide{
+  display: none;
+}
